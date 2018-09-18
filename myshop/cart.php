@@ -221,14 +221,15 @@ include("admin_area/includes/db.php");
 
 				
 				<tr>
-						<td colspan="4" align="right"><b>Sub Total:</b></td>
+						<td colspan="4" align="right"><b>Sub Total: $</b></td>
 						<td><?php if(isset($_SESSION['total_price'])){echo $_SESSION['total_price'];} else { echo $total; } ?></td>
 					</tr>
 					
 					<tr align="center">
 						<td colspan="2"><input type="submit" name="update_cart" value="Update Cart"/></td>
 						<td><input type="submit" name="continue" value="Continue Shopping" /></td>
-						<td><button><a href="checkout.php" style="text-decoration:none; color:black;">Checkout</a></button></td>
+						<td><input type="submit" name="checkout" value="Checkout" /></td>
+						
 					</tr>
 					
 				</table> 
@@ -272,6 +273,12 @@ include("admin_area/includes/db.php");
 	
 	}
 	echo @$up_cart = updatecart();
+	
+	if(isset($_POST['checkout'])){
+		
+		echo "<script>window.open('checkout.php','_self')</script>";
+		
+		}
 	
 	?>
 
