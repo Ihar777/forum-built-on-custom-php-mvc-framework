@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'LightItalic';
+	src: url('fonts/LightItalic.otf');
+}
+
+@font-face {
+	font-family: 'DemiBoldItalic';
+	src: url('fonts/DemiBoldItalic.otf');
+}
+
+body {
+    font-family: "LightItalic", Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+#border{
+    border: none;
+    background-color: #f8f8f8;
+    padding: 20px 20px 10px 20px;
+}
+
+#logout{
+margin-top: 18px;
+}
+
+body{
+    font-size: 1.6em;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebe9f9+0,d8d0ef+50,cec7ec+55,c1bfea+100 */
+background: rgb(235,233,249); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(235,233,249,1) 0%, rgba(216,208,239,1) 50%, rgba(206,199,236,1) 55%, rgba(193,191,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 55%,rgba(193,191,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 55%,rgba(193,191,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+#theme{
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    font-family: 'DemiBoldItalic', sans-serif;
+    font-size: 1.8em;
+}
+
+#user{
+    font-family: 'DemiBoldItalic', sans-serif;
+    font-size: 1.2em;
+}
+
+button, input, select, textarea, a {
+    font-family: 'DemiBoldItalic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+     font-family: 'DemiBoldItalic', sans-serif;
+}
+
+.pager li .active_link {
+    color: white;
+    background-color: #337ab7; !important;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register{
+    position: relative !important;
+    margin-left: 500px !important;
+}
+
+.m-r-sm {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
